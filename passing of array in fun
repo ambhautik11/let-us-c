@@ -1,0 +1,17 @@
+#include <stdio.h>
+ void disp ( int * ) ;
+int main()
+{
+   int mark[10],i;
+   for ( i=0;i<10;i++)
+         scanf (" %d" ,&mark[i] );
+   for ( i=0;i<10;i++)
+         disp ( mark[i] ) ;
+ 
+   return 0;
+}
+ 
+void disp ( int *n)
+{
+      printf( "%d   ",*n) ;
+}

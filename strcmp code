@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<string.h>
+void main( )
+{
+  int i ,l1,l2 ,ctr;
+  char s1[ 100],s2[ 100] ; 
+  gets(s1);
+  gets(s2);
+  l1= strlen(s1) ;
+  l2 = strlen(s2);
+  for ( i=0;i<2;i++)
+{
+         if ( s1[i] == s2[i] )
+         {
+               ctr+=0 ;
+               continue ;
+         }
+          else 
+             {
+                 ctr+=1 ;
+                 printf("%d",(s1[i] - s2[i]));
+                 break ;
+             }
+}
+      if (ctr==0)
+                printf("%d",ctr) ;
+   
+
+
+}

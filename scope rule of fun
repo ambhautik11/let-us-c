@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+ int bhautik( int ) ;
+
+int bhautik( int j )
+{ 
+       int k=5 ;
+       printf(" %d\n",j) ;
+       printf("%d\n",k) ;
+      return ( k );
+}
+int main() {
+        int i = 20 ;
+      int   p= bhautik(i) ;
+          bhautik(i);
+        printf("%d",p);
+    return 0;
+}

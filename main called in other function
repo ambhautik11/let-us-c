@@ -1,0 +1,13 @@
+// infinite
+#include <stdio.h>
+ void bhautik() ;
+
+bhautik( )
+{ 
+       printf(" bhautik") ;
+        main( );
+}
+int main() {
+          bhautik() ;
+    return 0;
+}

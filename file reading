@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main(void )
+{
+       FILE   *fp ;
+       char  ch ;
+        fp = fopen( "doubt.c","r") ;
+        if ( fp==NULL){
+               printf("cno");
+               exit(1);
+        }
+       else 
+      {
+         while (1) 
+       {   
+            ch = fgetc(fp) ;
+            printf("\ndkdk%c",ch);
+             if(ch== EOF)
+                 break  ;
+           
+       }
+      }
+    return 0 ;
+}

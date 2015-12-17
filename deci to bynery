@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+      int d,b1=0,b2=0,i,dg ;
+      scanf("%d",&d);
+      for (i=0 ; d!=0 ; i++)
+      {
+           dg = d%2;
+          // printf("%d",dg);
+           b1 = b1*10 + dg;
+           d=d/2 ;
+      }
+      for (i=0 ; b1!=0 ; i++)
+      {
+           dg = b1%10;
+       //    printf("%d",dg);
+           b2 = b2*10 + dg;
+           b1= b1/10 ;
+      }
+     
+   printf("%d", b2);
+}

@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+   int mark[10],i;
+   for ( i=0;i<10;i++)
+         scanf (" %d" ,&mark[i] );
+   for ( i=0 ; i<10; i++)
+     {
+         printf ("\n  address of %dth palce is  %u",i,&mark[i] );
+         printf ("  element =  %d",mark[i] ) ;
+        
+     }
+ 
+   return 0 ;
+}

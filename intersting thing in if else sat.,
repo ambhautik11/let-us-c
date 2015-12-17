@@ -1,0 +1,10 @@
+
+#include <stdio.h>
+ 
+int main() 
+{
+ 
+    if ('X'<'x')
+         printf("compairs ascii values......");
+    return 0;
+}

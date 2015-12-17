@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main(void )
+{
+  int j,sp=0,k,s=0,i;
+  for ( i = 1; i<8 ; i++)
+  { 
+       for ( j  = 'A' ; j<'H'-s ; j++)
+              printf("%c",j);
+       for ( k= 1; k<= sp ; k++)
+               printf(" ");
+       if ( sp== 0)
+           j--;
+       for (j-- ;j >='A';j--)
+               printf("%c",j);
+       if ( i== 1)
+           sp++;
+       else 
+            sp+=2;
+      printf("\n");
+      s++;
+  }
+  return 0;
+}

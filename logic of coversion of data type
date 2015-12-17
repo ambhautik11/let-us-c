@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+ 
+int main() {
+ 
+    int x=3;
+    float y=3.00;
+ 
+    if (x==y) 
+    printf("x nd y are equal .....apply   logic 3 converted into 3.00");
+    else 
+        printf("x nd y are not equal");
+ 
+    return 0;
+}

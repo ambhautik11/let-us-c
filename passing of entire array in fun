@@ -1,0 +1,28 @@
+#include <stdio.h>
+void display ( int *,int ) ;
+int main()
+{
+   int mark[10], i;
+   
+
+   for ( i=0;i<10;i++)
+         scanf (" %d" ,&mark[i] );
+   
+    display( &mark[0] , 10) ;
+// we can use mark instand of &mark[ ] //
+ 
+   return 0 ;
+}
+
+void display( int *j , int n)
+{
+     int i ;
+       for ( i=0 ; i<n; i++)
+     {
+         printf ("\n  address of %dth palce is  %u",i,j);
+         printf ("  element =  %d",*j ) ;
+// increment of pointer to get nxt          location //
+        j++ ;
+
+     }
+}

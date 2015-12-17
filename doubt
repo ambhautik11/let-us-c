@@ -1,0 +1,21 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int num,j,r,i,a[15];
+    printf("enter dec");
+    scanf("%d",&num);
+    printf("redix:");
+    scanf("%d",r);
+     for (i=0; num!=0 ; i++);
+     {
+            a[i]=num%r ;
+            num= num/r ;
+            
+     }
+    for ( j=i-1;j!=0;j--)
+        printf("\n \n %d",a[j]);
+   
+ 
+    return 0;
+}

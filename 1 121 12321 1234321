@@ -1,0 +1,24 @@
+#include<conio.h>
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+	 int j,num,n,sum,i; 
+   scanf("%d",&n);
+    num=0 ;
+	for (i = 0; i <=n; i++)
+{
+      sum=0 ;
+      for (j=2i;j>=0;j--) 
+      {   
+           sum = sum+pow(10,j) ;
+      }
+   
+          num = sum + num*10 ;
+
+          printf("\t%d",num);
+
+}
+
+	return 0;
+}
